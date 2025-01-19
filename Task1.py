@@ -17,6 +17,8 @@ num2 = 0
 
 def questions():
 
+    global num1, num2, answer, count
+
     if count < totalQuestions:
         # finds a random number between 1 and 20 for num1 and num2
         num1 = random.randint(1,20) 
@@ -29,7 +31,7 @@ def questions():
         continue
 
 def check_answer():
-    global score, question_count
+    global score, count
 
     try:
         user_answer = int(answerField.get())
@@ -42,7 +44,7 @@ def check_answer():
         scoreLabel.config(text=f"Score: {score}")
         question_count += 1
         window.after(2000, questions)
-        
+
     except ValueError:
         resultLabel.config(text="Please enter a valid number.", fg="red")
 
