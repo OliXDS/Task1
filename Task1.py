@@ -28,6 +28,18 @@ def questions():
         # will need to end somehow
         continue
 
+def check_answer():
+    global score, question_count
+
+    try:
+        user_answer = int(answerField.get())
+        if user_answer == num2:
+            resultLabel.config(text="Correct!", fg="green")
+            score += 1
+        else:
+            resultLabel.config(text=f"Wrong! The correct answer was {num2}", fg="red")
+
+        
 
 
 # creates and displays window for game
