@@ -33,3 +33,7 @@ def questions():
 window = tk.TK() 
 # displays title on window
 window.title("My Maths Quiz")
+
+submit_button = tk.Button(window, text="Submit", font=("Arial", 14))
+submit_button.pack(pady=10)
+
