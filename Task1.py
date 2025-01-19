@@ -52,15 +52,15 @@ def end_quiz():
     questionLabel.config(text="Quiz Complete!")
     answerField.pack_forget()
     submitButton.pack_forget()
-    resultLabel.config(text=f"Your final score is {score}/{total_questions}", fg="blue")
+    resultLabel.config(text=f"Your final score is {score}/{totalQuestions}", fg="blue")
 
 
 # creates and displays window for game
-window = tk.TK() 
+window = tk.Tk() 
 # displays title on window
 window.title("My Maths Quiz")
 
-submitButton = tk.Button(window, text="Submit", font=("Arial", 14))
+submitButton = tk.Button(window, text="Submit", command=check_answer, font=("Arial", 14))
 submitButton.pack(pady=10)
 
 scoreLabel = tk.Label(window, text=f"Score: {score}", font=("Arial", 14))
