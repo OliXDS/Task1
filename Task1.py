@@ -48,6 +48,12 @@ def check_answer():
     except ValueError:
         resultLabel.config(text="Please enter a valid number.", fg="red")
 
+def end_quiz():
+    questionLabel.config(text="Quiz Complete!")
+    answerField.pack_forget()
+    submitButton.pack_forget()
+    resultLabel.config(text=f"Your final score is {score}/{total_questions}", fg="blue")
+
 
 # creates and displays window for game
 window = tk.TK() 
@@ -68,6 +74,8 @@ resultLabel.pack(pady=10)
 
 answerField = tk.Entry(window, font=("Arial", 14))
 answerField.pack(pady=10)
+
+
 
 # runs the game
 window.mainloop()
