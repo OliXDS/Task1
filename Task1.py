@@ -29,6 +29,7 @@ def questions():
         continue
 
 
+
 # creates and displays window for game
 window = tk.TK() 
 # displays title on window
@@ -39,3 +40,9 @@ submitButton.pack(pady=10)
 
 scoreLabel = tk.Label(window, text=f"Score: {score}", font=("Arial", 14))
 scoreLabel.pack(pady=10)
+
+questionLabel = tk.Label(window, text="", font=("Arial", 16))
+questionLabel.pack(pady=20)
+
+answerField = tk.Entry(window, font=("Arial", 14))
+answerField.pack(pady=10)
