@@ -74,6 +74,7 @@ resultLabel.pack(pady=10)
 
 answerField = tk.Entry(window, font=("Arial", 14))
 answerField.pack(pady=10)
+answerField.bind("<Return>", lambda event: check_answer())
 
 # starts with questions
 questions()
