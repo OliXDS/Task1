@@ -46,7 +46,7 @@ def check_answer():
             resultLabel.config(text=f"Wrong! The correct answer was {num2}", fg="red")
 
         scoreLabel.config(text=f"Score: {score}")
-        question_count += 1
+        count += 1
         window.after(2000, questions)
 
     except ValueError:
