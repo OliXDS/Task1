@@ -49,3 +49,6 @@ resultLabel.pack(pady=10)
 
 answerField = tk.Entry(window, font=("Arial", 14))
 answerField.pack(pady=10)
+
+# runs the game
+window.mainloop()
