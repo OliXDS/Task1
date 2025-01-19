@@ -26,6 +26,10 @@ def questions():
         # the correct answer is num1*num2 which is stored as answer
         answer = num1*num2
 
+        questionLabel.config(text=f"{num1} × x = {answer}")
+        answerField.delete(0, tk.END)
+        resultLabel.config(text="")
+
     else:
         # will need to end somehow
         end_quiz()
