@@ -29,6 +29,7 @@ def questions():
         continue
 
 
-
-window = tk.TK()
+# creates and displays window for game
+window = tk.TK() 
+# displays title on window
 window.title("My Maths Quiz")
