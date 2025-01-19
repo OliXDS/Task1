@@ -37,7 +37,7 @@ def questions():
             num1 = num2 * random.randint(1, 10)  # Ensure division has no remainder
             answer = num1 // num2
 
-        questionLabel.config(text=f"{num1} × x = {answer}")
+        questionLabel.config(text=f"{num1} {operation} x = {answer}")
         answerField.delete(0, tk.END)
         resultLabel.config(text="")
 
@@ -64,10 +64,11 @@ def check_answer():
         resultLabel.config(text="Please enter a valid number.", fg="red")
 
 def end_quiz():
+    percentage = (score / totalQuestions) * 100
     questionLabel.config(text="Quiz Complete!")
     answerField.pack_forget()
     submitButton.pack_forget()
-    resultLabel.config(text=f"Your final score is {score}/{totalQuestions}", fg="blue")
+    resultLabel.config(text=f"Your final score is {score}/{totalQuestions} ({percentage:.2f}%)", fg="blue")
 
 
 # creates and displays window for game
