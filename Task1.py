@@ -18,14 +18,24 @@ operations = ["+", "-", "*", "/"]
 
 def questions():
 
-    global num1, num2, answer, count
+    global num1, num2, answer, count, operation
 
     if count < totalQuestions:
         # finds a random number between 1 and 20 for num1 and num2
         num1 = random.randint(1,20) 
         num2 = random.randint(1,20)
         # the correct answer is num1*num2 which is stored as answer
-        answer = num1*num2
+        operation = random.choice(operations)
+
+        if operation == "+":
+            answer = num1 + num2
+        elif operation == "-":
+            answer = num1 - num2
+        elif operation == "*":
+            answer = num1 * num2
+        elif operation == "/":
+            num1 = num2 * random.randint(1, 10)  # Ensure division has no remainder
+            answer = num1 // num2
 
         questionLabel.config(text=f"{num1} × x = {answer}")
         answerField.delete(0, tk.END)
