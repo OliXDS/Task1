@@ -20,3 +20,7 @@ def questions():
     if count < totalQuestions:
         num1 = random.randint(1,20)
         num2 = random.randint(1,20)
+        answer = num1*num2
+
+    else:
+        # will need to end somehow
