@@ -44,5 +44,8 @@ scoreLabel.pack(pady=10)
 questionLabel = tk.Label(window, text="", font=("Arial", 16))
 questionLabel.pack(pady=20)
 
+resultLabel = tk.Label(root, text="", font=("Arial", 14))
+resultLabel.pack(pady=10)
+
 answerField = tk.Entry(window, font=("Arial", 14))
 answerField.pack(pady=10)
