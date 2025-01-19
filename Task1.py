@@ -34,6 +34,8 @@ window = tk.TK()
 # displays title on window
 window.title("My Maths Quiz")
 
-submit_button = tk.Button(window, text="Submit", font=("Arial", 14))
-submit_button.pack(pady=10)
+submitButton = tk.Button(window, text="Submit", font=("Arial", 14))
+submitButton.pack(pady=10)
 
+scoreLabel = tk.Label(window, text=f"Score: {score}", font=("Arial", 14))
+scoreLabel.pack(pady=10)
