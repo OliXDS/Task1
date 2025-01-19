@@ -11,7 +11,8 @@ count = 0
 totalQuestions = 10
 num1 = 0
 num2 = 0
-
+operation = ""
+operations = ["+", "-", "*", "/"]
 
 # functions
 
