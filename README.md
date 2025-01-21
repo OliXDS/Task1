@@ -8,4 +8,12 @@ The program includes a graphical interface using Python’s tkinter library, mak
 
 ## Features
 
-- 
+- Randomly generated arithmetic problems (addition, subtraction, multiplication, division).
+
+- A scoring system that tracks your progress.
+
+- Immediate feedback for each question (correct / incorrect).
+
+- Displays your final score and percentage at the end of the quiz.
+
+- Simple and intuitive interface suitable for all ages.
