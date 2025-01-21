@@ -27,3 +27,17 @@ The program includes a graphical interface using Python’s tkinter library, mak
 3. A basic text editor or an integrated development environment (IDE) to view and run the code e.g vs code
 
 ## How to Set Up
+
+### 1. Installing Python
+
+First install python, but before you do this use the following command to check if you already have python installed:
+
+```bash 
+python --version
+```
+
+Hint: Your terminal can be found by typing cmd in the searchbox (windows) or Click the Launchpad icon in the Dock, type Terminal (MacOS)
+
+
+
+If the above is displayed then navigate to python.org and install python!
