@@ -95,3 +95,9 @@ python maths_quiz.py
 ![video](programVid.mp4)
 
 https://github.com/OliXDS/Task1/blob/main/programVid.mp4
+
+
+
+https://github.com/user-attachments/assets/86bcb90e-1c03-40cd-bb1b-61adf6679d29
+
+
