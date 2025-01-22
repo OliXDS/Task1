@@ -133,3 +133,6 @@ Built using tkinter, the application provides an intuitive GUI with buttons  and
 Division questions are generated to ensure the result is always an integer
 
 Invalid inputs (e.g., non-numeric answers) are handled with a message prompting the user to enter a valid number
+
+
+# Enjoy the quiz and test your maths skills!
