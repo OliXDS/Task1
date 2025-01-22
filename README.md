@@ -67,3 +67,16 @@ python maths_quiz.py
 ## User Guide
 
 ### How to play
+
+1. Once the application launches, the first question will appear in the window
+
+2. Enter your answer in the text field below the question
+
+3. Press Enter or click the Submit button to check your answer
+
+4. If your answer is correct, you’ll see a confirmation message, and your score will increase
+
+5. If your answer is incorrect, the correct answer will be displayed
+
+6. After 10 questions, the quiz ends, and your final score is displayed
+
