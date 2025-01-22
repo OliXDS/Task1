@@ -80,3 +80,11 @@ python maths_quiz.py
 
 6. After 10 questions, the quiz ends, and your final score is displayed
 
+
+## Controls
+
+- Answer Field: Enter your answer to the current question
+
+- Submit Button: Submit your answer for checking
+
+- Keyboard Enter: Alternatively, press Enter to submit your answer
