@@ -99,3 +99,20 @@ https://github.com/user-attachments/assets/86bcb90e-1c03-40cd-bb1b-61adf6679d29
 At the end of the game, you will see (as shown in the video):
 
 Final Score: Your final score is ?/10 (??.00%)
+
+
+## Technical Details
+
+### Code overview
+
+#### Randomized Questions: 
+The questions function generates random arithmetic problems by selecting two numbers and an operator from a predefined list
+
+#### Answer Validation:
+The check_answer function validates the user’s input against the correct answer and updates the score
+
+#### End Quiz: 
+After 10 questions, the end_quiz function displays the final score and hides the input field and button
+
+#### User Interface: 
+Built using tkinter, the application provides an intuitive GUI with buttons  and an entry field
