@@ -41,3 +41,6 @@ Hint: Your terminal can be found by typing cmd in the searchbox (windows) or Cli
 ![image of vs ccode](pythonError.png)
 
 If the above is displayed then navigate to python.org and install python!
+
+![image of vs ccode](pythonDownload.png)
+
