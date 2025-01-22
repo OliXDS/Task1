@@ -92,4 +92,4 @@ python maths_quiz.py
 
 ## Example Gameplay
 
-![](programVid.mp4)
+![video](programVid.mp4)
