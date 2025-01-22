@@ -44,3 +44,26 @@ If the above is displayed then navigate to python.org and install python!
 
 ![image of vs ccode](pythonDownload.png)
 
+### 2. Save the file
+
+Save the script with a .py extension (e.g., maths_quiz.py)
+
+### 3. Run the Program
+
+1. Open a terminal or command prompt
+
+2. Navigate to the directory where the script is saved (hint: on windows use the command "dir" to display your current directory - use "cd" to change directory)
+
+3. Run the script using the command:
+
+```bash 
+python maths_quiz.py
+```
+
+4. The application window will launch and you’re ready to play!
+
+
+
+## User Guide
+
+### How to play
