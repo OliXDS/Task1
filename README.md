@@ -116,3 +116,20 @@ After 10 questions, the end_quiz function displays the final score and hides the
 
 #### User Interface: 
 Built using tkinter, the application provides an intuitive GUI with buttons  and an entry field
+
+
+## Supported Operations
+
+- Addition (+)
+
+- Subtraction (-)
+
+- Multiplication (*)
+
+- Division (/) (rounded to ensure integer results)
+
+## Extra Notes
+
+Division questions are generated to ensure the result is always an integer
+
+Invalid inputs (e.g., non-numeric answers) are handled with a message prompting the user to enter a valid number
