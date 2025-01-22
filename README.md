@@ -92,12 +92,10 @@ python maths_quiz.py
 
 ## Example Gameplay
 
-![video](programVid.mp4)
-
-https://github.com/OliXDS/Task1/blob/main/programVid.mp4
-
-
+Watch the video below to see some gameplay!
 
 https://github.com/user-attachments/assets/86bcb90e-1c03-40cd-bb1b-61adf6679d29
 
+At the end of the game, you will see (as shown in the video):
 
+Final Score: Your final score is ?/10 (??.00%)
