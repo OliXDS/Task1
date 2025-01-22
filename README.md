@@ -88,3 +88,7 @@ python maths_quiz.py
 - Submit Button: Submit your answer for checking
 
 - Keyboard Enter: Alternatively, press Enter to submit your answer
+
+
+## Example Gameplay
+
